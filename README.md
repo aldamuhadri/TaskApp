@@ -81,6 +81,45 @@ npm run android
 
 Returns current weather data displayed on the home screen as a motivational widget. Falls back gracefully if the API is unavailable.
 
+## Project Structure
+TaskApp/
+
+├── App.js                      # Root component and navigation setup
+
+├── src/
+
+│   ├── context/
+
+│   │   └── TaskContext.js      # Global state with AsyncStorage
+
+│   ├── screens/
+
+│   │   ├── HomeScreen.js       # Task list, search and filter
+
+│   │   ├── AddTaskScreen.js    # Add new task form
+
+│   │   └── TaskDetailScreen.js # Task detail view
+
+│   ├── components/
+
+│   │   ├── Button.js           # Reusable button component
+
+│   │   ├── TaskCard.js         # Task list item
+
+│   │   ├── SearchBar.js        # Search input
+
+│   │   ├── FilterTabs.js       # All/Pending/Done tabs
+
+│   │   ├── EmptyState.js       # Empty list placeholder
+
+│   │   └── InputField.js       # Reusable input with validation
+
+│   └── utils/
+
+│       ├── theme.js            # Colors, spacing, typography
+
+│       └── helpers.js          # generateId, formatDate, validateTask
+
 ## Architecture
 
 - **Context + useReducer** — lightweight global state without Redux
