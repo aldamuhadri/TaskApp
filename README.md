@@ -126,3 +126,13 @@ TaskApp/
 - **AsyncStorage** — tasks are saved automatically on every change
 - **Reusable components** — Button, InputField, TaskCard, SearchBar, FilterTabs, EmptyState
 - **Clean code** — no unnecessary dependencies, small focused components
+
+## Screenshots
+
+| Home Screen | Task Detail | Completed |
+|---|---|---|
+| ![Home](screenshots/home.png) | ![Detail](screenshots/detail.png) | ![Completed](screenshots/completed.png) |
+
+| Task List | Search |
+|---|---|
+| ![List](screenshots/list.png) | ![Search](screenshots/search.png) |
